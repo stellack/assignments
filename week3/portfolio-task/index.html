@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stella's portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section id="header">
+    <div class="container">
+      <header>
+        <nav>
+          <h2 class="logo"><span>_S</span>tel<span>la</span></h2>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fa fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </header>
+      <main>
+        <div class="header-text">
+          <p>Fullstack Software Developer</p>
+          <h1>Hello, I'm <span>Stella</span><br> Chemutai From Kenya</h1>
+        </div>
+    </div>
+  </section>
+  <!--About section-->
+  <section id="about">
+    <div class="container">
+      <!--A row with two columns-->
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/mypic.jpeg" alt="Picture of me">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>An IT professional with over 3 years of experience contributing to the smooth running and secure
+            operations in IT environment with 1 year in software development. I am committed to finding innovative
+            solutions to a variety of IT functions, such as software development, testing and security. Being an agile
+            learner with the ability to relate well with colleagues and contribute to the development of more
+            efficient and reliable systems and applications in an organization, I am seeking a position where my
+            skills and experience will be utilized as I learn from other employees</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of about section-->
+  <!--Services section-->
+  <section id="services">
+    <div class="container">
+      <h1 class="sub-title">my Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa fa-code" aria-hidden="true"></i>
+          <h2>Web Design</h2>
+          <p>I design various types of websites as may be required by the user, for example:
+            Static, dynamic or CMS and ecommerce.
+          </p>
+          <a href="">Learn more</a>
+        </div>
+        <div>
+          <i class="fa fa-crop" aria-hidden="true"></i>
+          <h2>Web Development</h2>
+          <p>I am a Fullstack web developer. I create and maintain websites. I ensure optimum performance and capacity
+            for your website.
+            I also create content for users website. I also develop the logical part or backend part of your website.
+          </p>
+          <a href="">Learn more</a>
+        </div>
+        <div>
+          <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+          <h2>UI/UX Design</h2>
+          <p>I am your go to person to design for you the experience that the user would go through when interacting
+            with your website.
+            I design user interfaces for all your devices, for example: home appliances, mobile phones, computers and
+            other electronic devices.
+          </p>
+          <a href="">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------End of Services section--------->
+  <!------Start Projects section--------->
+  <section id="projects">
+    <div class="container">
+      <h1 class="sub-title">my projects</h1>
+      <div class="project-list">
+        <div class="project">
+          <img src="images/project-1.jpg" alt="Project 1">
+          <div class="layer">
+            <h3>Tribute Page</h3>
+            <p>The page is a tribute about Eliud Kipchoge, the fastest marathoner of all time.
+              Get more about it on codepen.</p>
+            <a href="https://codepen.io/stella-c/pen/OJZEyev"><i class="fa fa-external-link"
+                style="font-size:24px;color:crimson"></i></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/project-2-2.jpg" alt="Project 2">
+          <div class="layer">
+            <h3>About me</h3>
+            <p>Introduction about myself, my professional career and the goals I have by joining Zuri intership</p>
+            <a href="https://codepen.io/stella-c/pen/RwyJPQX"><i class="fa fa-external-link"
+                style="font-size:24px;color:crimson"></i></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/project-3-3.jpg" alt="Project 3">
+          <div class="layer">
+            <h3>Login & Registration Form</h3>
+            <p>The form that prompts the user to login if they have already registered and if not there is a link for
+              them to register. They can also change password if they forgot their password</p>
+            <a href="https://replit.com/@StellaChemutai/login-register-page"><i class="fa fa-external-link"
+                style="font-size:24px;color:crimson"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="" class="btn">See More</a>
+    </div>
+  </section>
+  <!------End of Projects section--------->
+  <!------Skills section--------->
+  <section id="skills">
+    <div class="container">
+      <h1 class="sub-title">skills, priorities and hobbies</h1>
+      <p>These are my skills, priorities and hobbies. Listed under skills are both technical and soft skills. </p>
+      <div class="skills-list">
+        <div>
+          <h2>Skills</h2>
+          <p><i class="fa fa-code"></i> Web Design</p>
+          <p><i class="fa fa-crop"></i> Web Development</p>
+          <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> UI/UX Design</p>
+          <p><i class="fa fa-balance-scale"></i> Problem solving</p>
+          <p><i class="fa fa-calendar-times-o"></i>Good time management</p>
+        </div>
+        <div>
+          <h2>Priorities</h2>
+          <p><i class="fa fa-users"></i> Customer in every design</p>
+          <p><i class="fa fa-random"></i> Work on first things first</p>
+          <p><i class="fa fa-code-fork"></i> Love of learning</p>
+          <p><i class="fa fa-heart"></i> Perfectionism</p>
+        </div>
+        <div>
+          <h2>Hobbies</h2>
+          <p><i class="fa fa-code"></i> Coding</p>
+          <p><i class="fa fa-user"></i> Athletics</p>
+          <p><i class="fa fa-book"></i> Reading</p>
+          <p><i class="fa fa-music"></i> Music</p>
+          <p><i class="fa fa-file-movie-o"></i> Watching movies</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------End of Skills section--------->
+  </main>
+  <footer>
+    <div class="copyright">
+      <p>Copyright <i class="fa fa-copyright"></i> Stella</p>
+    </div>
+  </footer>
+</body>
+
+</html>
