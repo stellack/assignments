@@ -1,0 +1,90 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    margin-top: 150px;
+    height: 400px;
+    padding: 30px;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+}
+
+.p-style {
+    margin-bottom: 50px;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+
+button {
+    color: hsl(0, 0%, 95%);
+    background: inherit;
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.flex-item1 {
+    border-radius: 10px 0 0 10px;
+    background: hsl(31, 77%, 52%);
+}
+
+.flex-item2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.flex-item3 {
+    border-radius: 0 10px 10px 0;
+    background: hsl(179, 100%, 13%);
+}
+
+.main a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+
+/*For desktops*/
+
+/*Styling for mobile, width: 375px*/
+@media screens and (max-width:375px) {
+
+    .flex-item1,
+    .flex-item2,
+    .flex-item3 {
+        flex-basis: 100%;
+    }
+
+}
